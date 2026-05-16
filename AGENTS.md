@@ -76,9 +76,9 @@ The project has dual runtime compatibility - works with both Bun and Node.js:
   - Sonnet 4.5 WITH [1m] suffix: 1M tokens (800k usable at 80%) - requires long context beta access
   - Sonnet 4.5 WITHOUT [1m] suffix: 200k tokens (160k usable at 80%)
   - Legacy models default to 200k tokens
-  - Note: The 80% usable threshold is a conservative estimate; adjust in config if you prefer a different warning point
 
 ## Personal Notes
 
-- I primarily use this with Ghostty + a Nerd Font, so powerline separators work out of the box for me
-- Settings file lives at `~/.config/ccstatusline/settings.json` — worth backing this up after tuning
+> Forked from [sirmalloc/ccstatusline](https://github.com/sirmalloc/ccstatusline) for personal use.
+> My main interest is tweaking the default color scheme and token usage display thresholds.
+> If upstream changes break things, check `renderer.ts` and `config.ts` first.
