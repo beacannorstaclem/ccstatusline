@@ -80,5 +80,5 @@ The project has dual runtime compatibility - works with both Bun and Node.js:
 ## Personal Notes
 
 > Forked from [sirmalloc/ccstatusline](https://github.com/sirmalloc/ccstatusline) for personal use.
-> My main interest is tweaking the default color scheme and token usage display thresholds.
-> If upstream changes break things, check `renderer.ts` and `config.ts` first.
+> Main reason for forking: experimenting with custom color themes and understanding how the renderer works.
+> If upstream adds theme support natively, consider merging back and dropping local changes.
